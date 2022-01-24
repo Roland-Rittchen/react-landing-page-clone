@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import { css, Global, jsx } from '@emotion/react';
+import { css, Global } from '@emotion/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -13,6 +13,8 @@ ReactDOM.render(
         ::before {
           box-sizing: border-box;
           margin: 0;
+          font-family: 'Apercu', sans-serif;
+          letter-spacing: -0.01em;
         }
       `}
     />
